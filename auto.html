@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="auto.css">
+
+
+    <title>Autonomous</title>
+</head>
+<body>
+       
+<header id="first-page">
+    
+    <div class="head">
+        <h1>WORK BOARD</h1>
+    </div>
+
+    <section class="grid-container">
+        <div class="grid-item1"><h4>Client 1:-Transactions </h4><canvas style="width:90px; height: 90px;" id="myChart" ></canvas><a id="details" href="customer1.html" target="_blank">Customer Detail</a></div>
+        <div class="grid-item2">Client 2</div>
+        <div class="grid-item3">Client 3</div>
+        <div class="grid-item4">Description</div>
+        <div class="grid-item5">Client 5</div>
+        <div class="grid-item6">Client 6</div>
+        <div class="grid-item7">Client 7</div>
+
+     
+    </section>
+</header>
+
+    <section class="second-page">
+        <h1>About Us</h1>
+        <hr>
+
+        <div class="about">
+            <div class="about1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non quia officia at iste sit assumenda, tempora rem iure facilis, quaerat harum a. Quae labore quas id non quibusdam doloremque eligendi et magni voluptate illum obcaecati perspiciatis praesentium laboriosam, cum ducimus corrupti! In aliquam suscipit culpa sed excepturi, et eaque iste eligendi iure. Unde autem similique perspiciatis. Ad dolore velit quibusdam beatae non tempora pariatur sint obcaecati! Amet maiores facilis molestias provident tempore iusto quisquam quo dolorum omnis? Alias velit illum harum nesciunt facilis doloremque voluptatibus labore. Voluptatem unde quasi magnam sequi possimus deserunt, commodi incidunt officia tenetur explicabo ea est vitae. Ratione ullam accusamus eaque magni iste officiis itaque consectetur nostrum, exercitationem laborum ea esse, corporis expedita. Sunt corporis eligendi repellendus debitis ad odio iure exercitationem? Eaque non, soluta cum labore sunt voluptates voluptatem amet tempora necessitatibus eligendi laboriosam nostrum mollitia laborum fuga qui, quae, incidunt omnis iste veniam officia quod. Dolorum voluptates eius veritatis fugiat unde tempore ipsam sunt obcaecati impedit recusandae, deserunt beatae ipsum tempora? Itaque atque rerum eligendi. Iste perspiciatis debitis tempore ullam minus fugit velit voluptatum labore. Aliquam officia neque a quidem ipsum temporibus illum laudantium cum earum. Sed, sit. Sint libero culpa laudantium quam, eveniet praesentium fugit? Tempore temporibus magni blanditiis iure, praesentium perspiciatis? Nemo est soluta totam eos! Qui, est ratione. Odio ad animi doloremque deleniti nemo saepe maiores adipisci facere perspiciatis aspernatur, aliquam ex sequi velit error rem consequatur provident distinctio enim dolorem explicabo ducimus? Odit expedita officiis tempore maiores facilis nam, excepturi itaque ullam mollitia, nemo iure tenetur! Magni nobis aliquam, tenetur inventore minima consectetur fugiat impedit repellendus hic explicabo consequatur! Suscipit, impedit nemo. Dolorem, quod dignissimos perferendis unde possimus fugiat maxime reiciendis deleniti ab sapiente quidem, esse perspiciatis vero est. Fuga doloribus itaque praesentium nisi? Id dolor a velit asperiores.</div>
+            <div class="about2"></div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        
+        <div id="footer">
+            <p>Contact us</p>
+            <
+
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script>
+         window.addEventListener('load',()=> {
+              
+         
+            var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'pie',
+
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: [
+                'rgba(39, 60, 117, 1.0)',
+                'rgba(64, 115, 158, 1.0)',
+                'rgba(255, 206, 86, 0.8)',
+               
+            ],
+            borderColor: 'rgb(155, 77, 132)',
+            data: [ 20, 30, 45]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+         });
+    </script>
+</body>
+</html>
